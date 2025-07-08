@@ -1,0 +1,27 @@
+# Programming Languages
+*.py linguist-language=Python
+*.sql linguist-language=SQL
+*.r linguist-language=R
+*.R linguist-language=R
+
+# Business Intelligence & Analytics Tools
+*.twbx linguist-language=Tableau
+*.pbix linguist-language=Power-BI
+*.pbit linguist-language=Power-BI
+*.tds linguist-language=Tableau
+*.tdsx linguist-language=Tableau
+
+# Data Analysis Languages
+*.dax linguist-language=DAX
+*.m linguist-language=M
+*.pq linguist-language=Power-Query
+
+# Jupyter Notebooks
+*.ipynb linguist-language=Jupyter-Notebook
+
+# Exclude certain directories from language detection
+docs/* linguist-vendored=true
+images/* linguist-vendored=true
+assets/* linguist-vendored=true
+data/* linguist-vendored=true
+datasets/* linguist-vendored=true
