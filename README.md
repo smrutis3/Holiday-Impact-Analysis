@@ -1,192 +1,150 @@
-# Holiday-Impact-Analysis
-Holiday Impact Analysis on Retail Sales
-Data Warehousing and Business Intelligence Project
-[Show Image](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-Show Image
-Show Image
-📊 Project Overview
-This project analyzes the impact of holidays on retail sales performance across four major product categories: Apparel, Beauty, Home & Kitchen, and Electronics. Using comprehensive data analysis and visualization techniques, we uncover key trends that drive sales during peak holiday periods.
-🎯 Key Objectives
-
+# Holiday-Impact-Analysis\
+Holiday Impact Analysis on Retail Sales\
+Data Warehousing and Business Intelligence Project\
+(https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+\Show Image\
+Show Image\
+📊 Project Overview\
+This project analyzes the impact of holidays on retail sales performance across four major product categories: Apparel, Beauty, Home & Kitchen, and Electronics. Using comprehensive data analysis and visualization techniques, we uncover key trends that drive sales during peak holiday periods.\
+🎯 Key Objectives\
 Understand how holidays impact retail sales performance
 Identify top-performing regions, brands, and product categories
 Analyze the effectiveness of discount strategies during holidays
-Provide actionable insights for inventory management and marketing campaigns
+Provide actionable insights for inventory management and marketing campaigns\
 
-School of Information Sciences, University of Illinois Urbana-Champaign
-📈 Key Findings
-🏆 Major Insights
-
+🏆 Major Insights\
 Q4 Dominance: Cyber Monday, Black Friday, and Christmas drive the highest sales volumes
 Regional Performance: West Coast states (Washington, Oregon, California) lead in holiday sales
 Brand Leadership: Nike dominates apparel loyalty, Apple leads electronics sales
 Discount Impact: Electronics show highest discount percentages (avg 25.55%) during holidays
-Customer Segmentation: Premium segments show higher loyalty, budget segments are more discount-sensitive
+Customer Segmentation: Premium segments show higher loyalty, budget segments are more discount-sensitive\
 
-📊 Category-Specific Insights
-Apparel
+📊 Category-Specific Insights\
+Apparel\
+Nike achieves highest customer loyalty (~120K) across all segments\
+Calvin Klein and Ralph Lauren lead in revenue (~$287K)\
+Winter shows consistently lower final prices due to holiday discounts\
 
-Nike achieves highest customer loyalty (~120K) across all segments
-Calvin Klein and Ralph Lauren lead in revenue (~$287K)
-Winter shows consistently lower final prices due to holiday discounts
+Beauty\
+Christmas, Cyber Monday, and Black Friday drive highest sales\
+Gender-neutral purchasing behavior supports inclusive marketing\
+West Coast markets significantly outperform others\
 
-Beauty
+Home & Kitchen\
+Christmas sales dominate with 706 units (significantly higher than other holidays)\
+Shein generates highest revenue at $155M\
+Budget and Mid-Range segments receive deeper discounts\
 
-Christmas, Cyber Monday, and Black Friday drive highest sales
-Gender-neutral purchasing behavior supports inclusive marketing
-West Coast markets significantly outperform others
+Electronics\
+Cyber Monday leads with 96,592 units sold\
+Apple and Samsung show highest sales spikes\
+Laptops and tablets drive overall sales volume\
 
-Home & Kitchen
+🛠️ Tools & Technologies\
 
-Christmas sales dominate with 706 units (significantly higher than other holidays)
-Shein generates highest revenue at $155M
-Budget and Mid-Range segments receive deeper discounts
+Data Visualization: Tableau, Power BI\
+Data Processing: Python, Pandas\
+Data Source: Bright Data\
+Dataset Size: 32,000-40,000 rows (8,000-10,000 per category)\
 
-Electronics
+🎨 Dashboard Gallery\
+Apparel Analytics Dashboard\
+Key Visualizations:\
 
-Cyber Monday leads with 96,592 units sold
-Apple and Samsung show highest sales spikes
-Laptops and tablets drive overall sales volume
+Holiday Sales Volume and Revenue Trends\
+Customer Loyalty by Brand\
+Top Brands by Revenue and Discounts\
+Holiday Sales Performance by Region\
 
-🗂️ Repository Structure
-📦 Holiday-Retail-Sales-Analysis
-├── 📁 data/
-│   ├── raw/                    # Original dataset files
-│   ├── processed/              # Cleaned and transformed data
-│   └── sample/                 # Sample data for demo
-├── 📁 dashboards/
-│   ├── apparel/               # Tableau files for apparel analysis
-│   ├── beauty/                # Tableau files for beauty analysis
-│   ├── home_kitchen/          # Power BI files for home & kitchen
-│   └── electronics/           # Tableau files for electronics
-├── 📁 visualizations/
-│   ├── images/                # Static images of key visualizations
-│   ├── interactive/           # Interactive viz exports
-│   └── screenshots/           # Dashboard screenshots
-├── 📁 analysis/
-│   ├── notebooks/             # Jupyter notebooks for data analysis
-│   ├── scripts/               # Python scripts for data processing
-│   └── reports/               # Detailed analysis reports
-├── 📁 docs/
-│   ├── methodology.md         # Data collection and analysis methodology
-│   ├── insights.md            # Detailed insights and findings
-│   └── recommendations.md     # Business recommendations
-├── 📄 README.md
-└── 📄 requirements.txt
-🛠️ Tools & Technologies
+Beauty Products Dashboard\
+Key Visualizations:\
 
-Data Visualization: Tableau, Power BI
-Data Processing: Python, Pandas
-Data Source: Bright Data
-Dataset Size: 32,000-40,000 rows (8,000-10,000 per category)
+Product Sales by Holiday Category\
+Sales by State (Holiday Filter)\
+Gender Preferences by Season\
+Customer Sales by Gender\
 
-🎨 Dashboard Gallery
-Apparel Analytics Dashboard
-Show Image
-Key Visualizations:
+Home & Kitchen Dashboard\
+Key Visualizations:\
 
-Holiday Sales Volume and Revenue Trends
-Customer Loyalty by Brand
-Top Brands by Revenue and Discounts
-Holiday Sales Performance by Region
+Revenue Generated by Brand\
+Sales Performance Across Holiday Seasons\
+Annual Discount Impact by Customer Segment\
+Category Distribution by Seller Region\
 
-Beauty Products Dashboard
-Show Image
-Key Visualizations:
+Electronics Dashboard\
+Key Visualizations:\
 
-Product Sales by Holiday Category
-Sales by State (Holiday Filter)
-Gender Preferences by Season
-Customer Sales by Gender
+Brand Discount by Year and Quarter\
+Discount Analysis by State\
+Segment-Wise Sales and Discounts\
+Seasonal Holiday Discount Analysis\
 
-Home & Kitchen Dashboard
-Show Image
-Key Visualizations:
+📊 Interactive Visualizations\
+Featured Insights\
+1. Customer Loyalty Analysis (Apparel)\
 
-Revenue Generated by Brand
-Sales Performance Across Holiday Seasons
-Annual Discount Impact by Customer Segment
-Category Distribution by Seller Region
+Nike and Calvin Klein lead in customer loyalty\
+Premium segments show higher brand affinity\
+Balanced distribution across customer segments\
 
-Electronics Dashboard
-Show Image
-Key Visualizations:
+2. Holiday Sales Performance (Beauty)\
 
-Brand Discount by Year and Quarter
-Discount Analysis by State
-Segment-Wise Sales and Discounts
-Seasonal Holiday Discount Analysis
+Christmas and Cyber Monday drive highest sales\
+Independence Day shows highest discount percentage (~42%)\
+Strong correlation between discount levels and sales volume\
 
-📊 Interactive Visualizations
-Featured Insights
-1. Customer Loyalty Analysis (Apparel)
-Show Image
+3. Seasonal Sales Trends (Home & Kitchen)\
 
-Nike and Calvin Klein lead in customer loyalty
-Premium segments show higher brand affinity
-Balanced distribution across customer segments
+Christmas dominates with 706 units sold\
+Black Friday surprisingly shows lowest performance\
+Labor Day and New Year show moderate activity\
 
-2. Holiday Sales Performance (Beauty)
-Show Image
+4. Holiday Electronics Sales (Electronics)\
 
-Christmas and Cyber Monday drive highest sales
-Independence Day shows highest discount percentage (~42%)
-Strong correlation between discount levels and sales volume
+Cyber Monday leads with 96,592 units\
+Winter season dominates total sales\
+Prime Day underperforms compared to other holidays\
 
-3. Seasonal Sales Trends (Home & Kitchen)
-Show Image
+🚀 Getting Started\
+Prerequisites\
+bashpip install -r requirements.txt\
+Data Access\
+Due to data privacy and size constraints, sample datasets are provided in the data/sample/ directory. Full datasets can be accessed through the original source link.\
+Running the Analysis\
+bash# Data preprocessing\
+python analysis/scripts/data_preprocessing.py\
 
-Christmas dominates with 706 units sold
-Black Friday surprisingly shows lowest performance
-Labor Day and New Year show moderate activity
+# Generate visualizations\
+python analysis/scripts/generate_visualizations.py\
 
-4. Holiday Electronics Sales (Electronics)
-Show Image
+# View interactive dashboards\
+# Open .twbx files in Tableau Desktop\
+# Open .pbix files in Power BI Desktop\
+🎯 Strategic Recommendations\
 
-Cyber Monday leads with 96,592 units
-Winter season dominates total sales
-Prime Day underperforms compared to other holidays
+Holiday Focus: Prioritize Q4 marketing campaigns (Black Friday, Cyber Monday, Christmas)\
+Regional Targeting: Concentrate efforts on West Coast markets\
+Inventory Planning: Stock high-performing brands and categories before peak seasons\
+Discount Strategy: Implement tiered discount strategies based on customer segments\
+Product Mix: Focus on electronics and beauty products during holiday seasons\
 
-🚀 Getting Started
-Prerequisites
-bashpip install -r requirements.txt
-Data Access
-Due to data privacy and size constraints, sample datasets are provided in the data/sample/ directory. Full datasets can be accessed through the original source link.
-Running the Analysis
-bash# Data preprocessing
-python analysis/scripts/data_preprocessing.py
+📊 Operational Insights\
 
-# Generate visualizations
-python analysis/scripts/generate_visualizations.py
+Apparel: Leverage Nike's brand loyalty while growing Calvin Klein revenue\
+Beauty: Target gender-neutral campaigns and focus on West Coast expansion\
+Home & Kitchen: Maximize Christmas season potential with targeted promotions\
+Electronics: Capitalize on Cyber Monday and Apple's market dominance\
 
-# View interactive dashboards
-# Open .twbx files in Tableau Desktop
-# Open .pbix files in Power BI Desktop
-📋 Business Recommendations
-🎯 Strategic Recommendations
+🔄 Future Enhancements\
 
-Holiday Focus: Prioritize Q4 marketing campaigns (Black Friday, Cyber Monday, Christmas)
-Regional Targeting: Concentrate efforts on West Coast markets
-Inventory Planning: Stock high-performing brands and categories before peak seasons
-Discount Strategy: Implement tiered discount strategies based on customer segments
-Product Mix: Focus on electronics and beauty products during holiday seasons
+ Implement predictive analytics for sales forecasting\
+ Add market basket analysis for cross-selling opportunities\
+ Integrate real-time data streaming\
+ Develop automated alert systems for performance monitoring\
+ Create mobile-responsive dashboard versions\
 
-📊 Operational Insights
+📚 Citations\
+Data source: Bright Data - Retail Sales Dataset\
 
-Apparel: Leverage Nike's brand loyalty while growing Calvin Klein revenue
-Beauty: Target gender-neutral campaigns and focus on West Coast expansion
-Home & Kitchen: Maximize Christmas season potential with targeted promotions
-Electronics: Capitalize on Cyber Monday and Apple's market dominance
-
-🔄 Future Enhancements
-
- Implement predictive analytics for sales forecasting
- Add market basket analysis for cross-selling opportunities
- Integrate real-time data streaming
- Develop automated alert systems for performance monitoring
- Create mobile-responsive dashboard versions
-
-📚 Citations
-Data source: Bright Data - Retail Sales Dataset
-
-This project was completed as part of IS 525: Data Warehousing and Business Intelligence course at the University of Illinois Urbana-Champaign under the guidance of Prof. Michael Wonderlich.
+This project was completed as part of IS 525: Data Warehousing and Business Intelligence course at the University of Illinois Urbana-Champaign under the guidance of Prof. Michael Wonderlich.\
