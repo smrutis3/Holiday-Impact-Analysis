@@ -110,3 +110,5 @@ Electronics: Capitalize on Cyber Monday and Apple's market dominance
 Data source: Bright Data - Retail Sales Dataset
 
 This project was completed as part of IS 525: Data Warehousing and Business Intelligence course at the University of Illinois Urbana-Champaign under the guidance of Prof. Michael Wonderlich.
+
+Performed by : SMRUTI SINGH
